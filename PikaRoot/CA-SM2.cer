@@ -1,0 +1,85 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            6d:d5:a1:07:e5:43:a5:cc:3a:c1:68:a1
+        Signature Algorithm: ecdsa-with-SHA256
+        Issuer: C=CN, ST=Sichuan, O=Pikachu Group, CN=Pikachu Root CA
+        Validity
+            Not Before: Jan  1 00:00:00 2000 GMT
+            Not After : Dec 31 23:59:59 2999 GMT
+        Subject: C=CN, ST=Sichuan, O=Pikachu Group, CN=Pikachu Root CA
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:68:c4:5f:a6:0c:7b:08:83:4d:1e:c2:61:0e:7a:
+                    55:fc:48:fd:78:91:d9:56:24:9d:a4:c1:59:84:d3:
+                    df:84:2b:03:5f:48:64:a2:77:34:3c:6e:50:51:4d:
+                    91:30:f5:7f:77:f8:69:03:5c:30:6a:f5:e1:e3:0f:
+                    19:12:be:b5:6d
+                ASN1 OID: SM2
+        X509v3 extensions:
+            X509v3 Subject Alternative Name: 
+                DNS:52pika.cn, DNS:52pika.com, DNS:52pika.cf, DNS:99pika.cn, DNS:99pika.com, DNS:pika.net.cn
+            X509v3 Issuer Alternative Name: 
+                DNS:52pika.cn, DNS:52pika.com, DNS:52pika.cf, DNS:99pika.cn, DNS:99pika.com, DNS:pika.net.cn
+            X509v3 Subject Key Identifier: 
+                AB:00:90:AE:87:69:D5:7D:83:89:4F:79:B5:86:A2:ED:1C:52:C4:FE
+            X509v3 Authority Key Identifier: 
+                keyid:AB:00:90:AE:87:69:D5:7D:83:89:4F:79:B5:86:A2:ED:1C:52:C4:FE
+
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Key Usage: 
+                Digital Signature, Non Repudiation, Key Encipherment, Data Encipherment, Key Agreement, Certificate Sign, CRL Sign, Encipher Only, Decipher Only
+            Netscape Comment: 
+                Pikachu Root CA SM2
+            Netscape Cert Type: 
+                SSL Client, SSL Server, S/MIME, Object Signing
+            Netscape CA Revocation Url: 
+                https://cert.52pika.cn/CRL/CA-SM2.cer
+            Netscape Base Url: 
+                https://cert.52pika.cn
+            Netscape Revocation Url: 
+                https://cert.52pika.cn/CRL/CA-SM2.cer
+            Netscape Renewal Url: 
+                https://cert.52pika.cn/CA-SM2.cer
+            Netscape CA Policy Url: 
+                https://cert.52pika.cn
+            Netscape SSL Server Name: 
+                cert.52pika.cn
+            X509v3 Extended Key Usage: critical
+                Time Stamping, Any Extended Key Usage, TLS Web Server Authentication, TLS Web Client Authentication, Code Signing, E-mail Protection, IPSec End System, IPSec Tunnel, IPSec User, Time Stamping, OCSP Signing, ipsec Internet Key Exchange, Microsoft Individual Code Signing, Microsoft Commercial Code Signing, Microsoft Trust List Signing, Microsoft Encrypted File System
+    Signature Algorithm: ecdsa-with-SHA256
+         30:46:02:21:00:c5:80:f7:ee:05:d4:0b:60:1b:ed:6e:61:ce:
+         41:03:23:47:34:5c:ec:88:db:ea:ef:fe:81:5a:60:07:b1:63:
+         61:02:21:00:a7:95:44:73:b3:fc:25:35:77:1c:df:5e:33:48:
+         f5:5d:4f:3e:48:dd:b0:1f:24:dc:0b:9e:0e:cc:23:33:e8:6e
+-----BEGIN CERTIFICATE-----
+MIIEnTCCBEKgAwIBAgIMbdWhB+VDpcw6wWihMAoGCCqGSM49BAMCMFExCzAJBgNV
+BAYTAkNOMRAwDgYDVQQIDAdTaWNodWFuMRYwFAYDVQQKDA1QaWthY2h1IEdyb3Vw
+MRgwFgYDVQQDDA9QaWthY2h1IFJvb3QgQ0EwIBcNMDAwMTAxMDAwMDAwWhgPMjk5
+OTEyMzEyMzU5NTlaMFExCzAJBgNVBAYTAkNOMRAwDgYDVQQIDAdTaWNodWFuMRYw
+FAYDVQQKDA1QaWthY2h1IEdyb3VwMRgwFgYDVQQDDA9QaWthY2h1IFJvb3QgQ0Ew
+WTATBgcqhkjOPQIBBggqgRzPVQGCLQNCAARoxF+mDHsIg00ewmEOelX8SP14kdlW
+JJ2kwVmE09+EKwNfSGSidzQ8blBRTZEw9X93+GkDXDBq9eHjDxkSvrVto4IC/DCC
+AvgwTwYDVR0RBEgwRoIJNTJwaWthLmNuggo1MnBpa2EuY29tggk1MnBpa2EuY2aC
+CTk5cGlrYS5jboIKOTlwaWthLmNvbYILcGlrYS5uZXQuY24wTwYDVR0SBEgwRoIJ
+NTJwaWthLmNuggo1MnBpa2EuY29tggk1MnBpa2EuY2aCCTk5cGlrYS5jboIKOTlw
+aWthLmNvbYILcGlrYS5uZXQuY24wHQYDVR0OBBYEFKsAkK6HadV9g4lPebWGou0c
+UsT+MB8GA1UdIwQYMBaAFKsAkK6HadV9g4lPebWGou0cUsT+MA8GA1UdEwEB/wQF
+MAMBAf8wDAYDVR0PBAUDAwf/gDAiBglghkgBhvhCAQ0EFRYTUGlrYWNodSBSb290
+IENBIFNNMjARBglghkgBhvhCAQEEBAMCBPAwNAYJYIZIAYb4QgEEBCcWJWh0dHBz
+Oi8vY2VydC41MnBpa2EuY24vQ1JML0NBLVNNMi5jZXIwJQYJYIZIAYb4QgECBBgW
+Fmh0dHBzOi8vY2VydC41MnBpa2EuY24wNAYJYIZIAYb4QgEDBCcWJWh0dHBzOi8v
+Y2VydC41MnBpa2EuY24vQ1JML0NBLVNNMi5jZXIwMAYJYIZIAYb4QgEHBCMWIWh0
+dHBzOi8vY2VydC41MnBpa2EuY24vQ0EtU00yLmNlcjAlBglghkgBhvhCAQgEGBYW
+aHR0cHM6Ly9jZXJ0LjUycGlrYS5jbjAdBglghkgBhvhCAQwEEBYOY2VydC41MnBp
+a2EuY24wgbIGA1UdJQEB/wSBpzCBpAYIKwYBBQUHAwgGBFUdJQAGCCsGAQUFBwMB
+BggrBgEFBQcDAgYIKwYBBQUHAwMGCCsGAQUFBwMEBggrBgEFBQcDBQYIKwYBBQUH
+AwYGCCsGAQUFBwMHBggrBgEFBQcDCAYIKwYBBQUHAwkGCCsGAQUFBwMRBgorBgEE
+AYI3AgEVBgorBgEEAYI3AgEWBgorBgEEAYI3CgMBBgorBgEEAYI3CgMEMAoGCCqG
+SM49BAMCA0kAMEYCIQDFgPfuBdQLYBvtbmHOQQMjRzRc7Ijb6u/+gVpgB7FjYQIh
+AKeVRHOz/CU1dxzfXjNI9V1PPkjdsB8k3AueDswjM+hu
+-----END CERTIFICATE-----

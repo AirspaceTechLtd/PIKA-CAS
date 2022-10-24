@@ -1,0 +1,85 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            ef:98:25:e4:99:42:ba:22:e2:ba:45:04
+        Signature Algorithm: ecdsa-with-SHA256
+        Issuer: C=CN, ST=Sichuan, O=SCU GeekBang, CN=SCU GeekBang Root CA SM2
+        Validity
+            Not Before: Jan  1 00:00:00 2000 GMT
+            Not After : Dec 31 23:59:59 2999 GMT
+        Subject: C=CN, ST=Sichuan, O=SCU GeekBang, CN=SCU GeekBang Root CA SM2
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:a8:74:57:c6:69:c5:e4:ea:6c:c8:79:b8:ad:51:
+                    0c:61:ea:4f:87:de:01:bf:b6:26:52:28:b5:26:11:
+                    7c:0c:7b:b5:19:3f:a0:cd:0d:8b:4c:4b:9f:d7:34:
+                    60:47:9c:0f:6b:75:b4:5a:44:86:b9:23:ef:bb:93:
+                    c8:7d:c2:aa:65
+                ASN1 OID: SM2
+        X509v3 extensions:
+            X509v3 Subject Alternative Name: 
+                DNS:geekbang.cf, DNS:geekbang.top, DNS:scugeek.cn, DNS:scugeek.cf
+            X509v3 Issuer Alternative Name: 
+                DNS:geekbang.cf, DNS:geekbang.top, DNS:scugeek.cn, DNS:scugeek.cf
+            X509v3 Subject Key Identifier: 
+                E0:02:AC:F5:D5:A9:B1:67:5F:77:96:2D:31:45:20:B8:4A:33:28:5E
+            X509v3 Authority Key Identifier: 
+                keyid:E0:02:AC:F5:D5:A9:B1:67:5F:77:96:2D:31:45:20:B8:4A:33:28:5E
+
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Key Usage: 
+                Digital Signature, Non Repudiation, Key Encipherment, Data Encipherment, Key Agreement, Certificate Sign, CRL Sign, Encipher Only, Decipher Only
+            Netscape Comment: 
+                GeekBang Root CA SM2
+            Netscape Cert Type: 
+                SSL Client, SSL Server, S/MIME, Object Signing
+            Netscape CA Revocation Url: 
+                https://cert.geekbang.top/CRL/CA-SM2.cer
+            Netscape Base Url: 
+                https://cert.geekbang.top
+            Netscape Revocation Url: 
+                https://cert.geekbang.top/CRL/CA-SM2.cer
+            Netscape Renewal Url: 
+                https://cert.geekbang.top/CA-SM2.cer
+            Netscape CA Policy Url: 
+                https://cert.geekbang.top
+            Netscape SSL Server Name: 
+                cert.geekbang.top
+            X509v3 Extended Key Usage: critical
+                Time Stamping, Any Extended Key Usage, TLS Web Server Authentication, TLS Web Client Authentication, Code Signing, E-mail Protection, IPSec End System, IPSec Tunnel, IPSec User, Time Stamping, OCSP Signing, ipsec Internet Key Exchange, Microsoft Individual Code Signing, Microsoft Commercial Code Signing, Microsoft Trust List Signing, Microsoft Encrypted File System
+    Signature Algorithm: ecdsa-with-SHA256
+         30:45:02:20:22:72:a4:25:3d:55:2b:67:bb:9d:ac:42:75:ba:
+         42:0b:f9:f0:22:2b:e1:d1:60:5e:74:e6:e2:4a:c5:0d:be:31:
+         02:21:00:88:ea:56:23:0c:32:f3:94:49:03:6c:0a:2a:1c:9a:
+         01:f8:e0:71:a6:0c:0c:0d:a8:68:1b:be:41:55:ae:7e:4a
+-----BEGIN CERTIFICATE-----
+MIIEmjCCBECgAwIBAgINAO+YJeSZQroi4rpFBDAKBggqhkjOPQQDAjBZMQswCQYD
+VQQGEwJDTjEQMA4GA1UECAwHU2ljaHVhbjEVMBMGA1UECgwMU0NVIEdlZWtCYW5n
+MSEwHwYDVQQDDBhTQ1UgR2Vla0JhbmcgUm9vdCBDQSBTTTIwIBcNMDAwMTAxMDAw
+MDAwWhgPMjk5OTEyMzEyMzU5NTlaMFkxCzAJBgNVBAYTAkNOMRAwDgYDVQQIDAdT
+aWNodWFuMRUwEwYDVQQKDAxTQ1UgR2Vla0JhbmcxITAfBgNVBAMMGFNDVSBHZWVr
+QmFuZyBSb290IENBIFNNMjBZMBMGByqGSM49AgEGCCqBHM9VAYItA0IABKh0V8Zp
+xeTqbMh5uK1RDGHqT4feAb+2JlIotSYRfAx7tRk/oM0Ni0xLn9c0YEecD2t1tFpE
+hrkj77uTyH3CqmWjggLpMIIC5TA8BgNVHREENTAzggtnZWVrYmFuZy5jZoIMZ2Vl
+a2JhbmcudG9wggpzY3VnZWVrLmNuggpzY3VnZWVrLmNmMDwGA1UdEgQ1MDOCC2dl
+ZWtiYW5nLmNmggxnZWVrYmFuZy50b3CCCnNjdWdlZWsuY26CCnNjdWdlZWsuY2Yw
+HQYDVR0OBBYEFOACrPXVqbFnX3eWLTFFILhKMyheMB8GA1UdIwQYMBaAFOACrPXV
+qbFnX3eWLTFFILhKMyheMA8GA1UdEwEB/wQFMAMBAf8wDAYDVR0PBAUDAwf/gDAj
+BglghkgBhvhCAQ0EFhYUR2Vla0JhbmcgUm9vdCBDQSBTTTIwEQYJYIZIAYb4QgEB
+BAQDAgTwMDcGCWCGSAGG+EIBBAQqFihodHRwczovL2NlcnQuZ2Vla2JhbmcudG9w
+L0NSTC9DQS1TTTIuY2VyMCgGCWCGSAGG+EIBAgQbFhlodHRwczovL2NlcnQuZ2Vl
+a2JhbmcudG9wMDcGCWCGSAGG+EIBAwQqFihodHRwczovL2NlcnQuZ2Vla2Jhbmcu
+dG9wL0NSTC9DQS1TTTIuY2VyMDMGCWCGSAGG+EIBBwQmFiRodHRwczovL2NlcnQu
+Z2Vla2JhbmcudG9wL0NBLVNNMi5jZXIwKAYJYIZIAYb4QgEIBBsWGWh0dHBzOi8v
+Y2VydC5nZWVrYmFuZy50b3AwIAYJYIZIAYb4QgEMBBMWEWNlcnQuZ2Vla2Jhbmcu
+dG9wMIGyBgNVHSUBAf8EgacwgaQGCCsGAQUFBwMIBgRVHSUABggrBgEFBQcDAQYI
+KwYBBQUHAwIGCCsGAQUFBwMDBggrBgEFBQcDBAYIKwYBBQUHAwUGCCsGAQUFBwMG
+BggrBgEFBQcDBwYIKwYBBQUHAwgGCCsGAQUFBwMJBggrBgEFBQcDEQYKKwYBBAGC
+NwIBFQYKKwYBBAGCNwIBFgYKKwYBBAGCNwoDAQYKKwYBBAGCNwoDBDAKBggqhkjO
+PQQDAgNIADBFAiAicqQlPVUrZ7udrEJ1ukIL+fAiK+HRYF505uJKxQ2+MQIhAIjq
+ViMMMvOUSQNsCiocmgH44HGmDAwNqGgbvkFVrn5K
+-----END CERTIFICATE-----
