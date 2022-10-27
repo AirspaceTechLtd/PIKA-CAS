@@ -2,33 +2,32 @@ Certificate:
     Data:
         Version: 3 (0x2)
         Serial Number:
-            ef:98:25:e4:99:42:ba:22:e2:ba:45:04
-        Signature Algorithm: ecdsa-with-SHA256
+            84:1f:95:89:e1:d6:0c:67:ff:62:30:dc
+        Signature Algorithm: SM2-with-SM3
         Issuer: C=CN, ST=Sichuan, O=SCU GeekBang, CN=SCU GeekBang Root CA SM2
         Validity
             Not Before: Jan  1 00:00:00 2000 GMT
             Not After : Dec 31 23:59:59 2999 GMT
         Subject: C=CN, ST=Sichuan, O=SCU GeekBang, CN=SCU GeekBang Root CA SM2
         Subject Public Key Info:
-            Public Key Algorithm: id-ecPublicKey
+            Public Key Algorithm: sm2
                 Public-Key: (256 bit)
                 pub:
-                    04:a8:74:57:c6:69:c5:e4:ea:6c:c8:79:b8:ad:51:
-                    0c:61:ea:4f:87:de:01:bf:b6:26:52:28:b5:26:11:
-                    7c:0c:7b:b5:19:3f:a0:cd:0d:8b:4c:4b:9f:d7:34:
-                    60:47:9c:0f:6b:75:b4:5a:44:86:b9:23:ef:bb:93:
-                    c8:7d:c2:aa:65
+                    04:bc:3a:55:e3:f5:1f:97:88:2d:d4:e4:48:f9:36:
+                    b0:d1:49:8a:ce:d6:4f:b6:20:80:a1:3f:9d:a9:18:
+                    73:46:a7:04:4a:81:c3:4b:c4:48:22:a2:5d:83:b5:
+                    ac:85:0b:ef:14:2c:12:d2:58:6c:fb:b5:97:e6:89:
+                    73:e3:55:0d:7b
                 ASN1 OID: SM2
         X509v3 extensions:
             X509v3 Subject Alternative Name: 
-                DNS:geekbang.cf, DNS:geekbang.top, DNS:scugeek.cn, DNS:scugeek.cf
+                DNS:geekbang.cf, DNS:geekbang.top, DNS:scugeek.cn, DNS:scugeek.cf, DNS:*.geekbang.cf, DNS:*.geekbang.top, DNS:*.scugeek.cn, DNS:*.scugeek.cf, DNS:四川大学极客邦, DNS:SCU GeekBang, DNS:GeekBang, Sichuan University, DNS:四川大学智能感知与先进控制实验室
             X509v3 Issuer Alternative Name: 
-                DNS:geekbang.cf, DNS:geekbang.top, DNS:scugeek.cn, DNS:scugeek.cf
+                DNS:geekbang.cf, DNS:geekbang.top, DNS:scugeek.cn, DNS:scugeek.cf, DNS:*.geekbang.cf, DNS:*.geekbang.top, DNS:*.scugeek.cn, DNS:*.scugeek.cf, DNS:四川大学极客邦, DNS:SCU GeekBang, DNS:GeekBang, Sichuan University, DNS:四川大学智能感知与先进控制实验室
             X509v3 Subject Key Identifier: 
-                E0:02:AC:F5:D5:A9:B1:67:5F:77:96:2D:31:45:20:B8:4A:33:28:5E
+                F2:24:9B:42:FE:00:E2:2C:0B:5C:DD:B9:CC:87:83:DC:5B:B8:95:1C
             X509v3 Authority Key Identifier: 
-                keyid:E0:02:AC:F5:D5:A9:B1:67:5F:77:96:2D:31:45:20:B8:4A:33:28:5E
-
+                F2:24:9B:42:FE:00:E2:2C:0B:5C:DD:B9:CC:87:83:DC:5B:B8:95:1C
             X509v3 Basic Constraints: critical
                 CA:TRUE
             X509v3 Key Usage: 
@@ -50,36 +49,50 @@ Certificate:
             Netscape SSL Server Name: 
                 cert.geekbang.top
             X509v3 Extended Key Usage: critical
-                Time Stamping, Any Extended Key Usage, TLS Web Server Authentication, TLS Web Client Authentication, Code Signing, E-mail Protection, IPSec End System, IPSec Tunnel, IPSec User, Time Stamping, OCSP Signing, ipsec Internet Key Exchange, Microsoft Individual Code Signing, Microsoft Commercial Code Signing, Microsoft Trust List Signing, Microsoft Encrypted File System
-    Signature Algorithm: ecdsa-with-SHA256
-         30:45:02:20:22:72:a4:25:3d:55:2b:67:bb:9d:ac:42:75:ba:
-         42:0b:f9:f0:22:2b:e1:d1:60:5e:74:e6:e2:4a:c5:0d:be:31:
-         02:21:00:88:ea:56:23:0c:32:f3:94:49:03:6c:0a:2a:1c:9a:
-         01:f8:e0:71:a6:0c:0c:0d:a8:68:1b:be:41:55:ae:7e:4a
+                Any Extended Key Usage, TLS Web Server Authentication, TLS Web Client Authentication, Code Signing, E-mail Protection, IPSec End System, IPSec Tunnel, IPSec User, Time Stamping, OCSP Signing, ipsec Internet Key Exchange, 1.3.6.1.5.5.8.2.2, Microsoft Individual Code Signing, Microsoft Commercial Code Signing, Microsoft Trust List Signing, Microsoft Encrypted File System, 1.3.6.1.4.1.311.10.3.4.1, Microsoft Smartcard Login, Netscape Server Gated Crypto, 1.3.6.1.4.1.311.10.3.10, 1.3.6.1.4.1.311.10.3.11, 1.3.6.1.4.1.311.10.6.2, 1.3.6.1.4.1.311.10.3.13, 1.3.6.1.4.1.311.10.3.2, 1.3.6.1.4.1.311.10.3.9, 1.3.6.1.4.1.311.10.5.1, 1.3.6.1.4.1.311.10.6.1, 1.3.6.1.4.1.311.10.3.12, 1.3.6.1.4.1.311.20.2.1, 1.3.6.1.4.1.311.21.5, 1.3.6.1.4.1.311.10.3.5, 1.3.6.1.4.1.311.21.6, 1.3.6.1.4.1.311.10.3.7, 1.3.6.1.4.1.311.21.19, 1.3.6.1.4.1.311.10.3.8, 1.3.6.1.4.1.311.10.3.6, X509v3 Any Policy, Microsoft Server Gated Crypto
+    Signature Algorithm: SM2-with-SM3
+    Signature Value:
+        30:46:02:21:00:de:ef:d4:84:47:0e:24:1e:f9:ea:1e:65:a8:
+        e5:df:3f:18:c2:11:3f:d8:82:6a:cb:c4:c9:5d:69:8e:8f:b2:
+        76:02:21:00:bb:58:e4:9c:68:8f:6c:75:aa:2a:c2:b0:1e:92:
+        14:fd:f9:8b:c8:26:bb:b9:bb:ce:9a:13:73:50:68:a6:df:11
 -----BEGIN CERTIFICATE-----
-MIIEmjCCBECgAwIBAgINAO+YJeSZQroi4rpFBDAKBggqhkjOPQQDAjBZMQswCQYD
+MIIHBDCCBqmgAwIBAgINAIQflYnh1gxn/2Iw3DAKBggqgRzPVQGDdTBZMQswCQYD
 VQQGEwJDTjEQMA4GA1UECAwHU2ljaHVhbjEVMBMGA1UECgwMU0NVIEdlZWtCYW5n
 MSEwHwYDVQQDDBhTQ1UgR2Vla0JhbmcgUm9vdCBDQSBTTTIwIBcNMDAwMTAxMDAw
 MDAwWhgPMjk5OTEyMzEyMzU5NTlaMFkxCzAJBgNVBAYTAkNOMRAwDgYDVQQIDAdT
 aWNodWFuMRUwEwYDVQQKDAxTQ1UgR2Vla0JhbmcxITAfBgNVBAMMGFNDVSBHZWVr
-QmFuZyBSb290IENBIFNNMjBZMBMGByqGSM49AgEGCCqBHM9VAYItA0IABKh0V8Zp
-xeTqbMh5uK1RDGHqT4feAb+2JlIotSYRfAx7tRk/oM0Ni0xLn9c0YEecD2t1tFpE
-hrkj77uTyH3CqmWjggLpMIIC5TA8BgNVHREENTAzggtnZWVrYmFuZy5jZoIMZ2Vl
-a2JhbmcudG9wggpzY3VnZWVrLmNuggpzY3VnZWVrLmNmMDwGA1UdEgQ1MDOCC2dl
-ZWtiYW5nLmNmggxnZWVrYmFuZy50b3CCCnNjdWdlZWsuY26CCnNjdWdlZWsuY2Yw
-HQYDVR0OBBYEFOACrPXVqbFnX3eWLTFFILhKMyheMB8GA1UdIwQYMBaAFOACrPXV
-qbFnX3eWLTFFILhKMyheMA8GA1UdEwEB/wQFMAMBAf8wDAYDVR0PBAUDAwf/gDAj
-BglghkgBhvhCAQ0EFhYUR2Vla0JhbmcgUm9vdCBDQSBTTTIwEQYJYIZIAYb4QgEB
-BAQDAgTwMDcGCWCGSAGG+EIBBAQqFihodHRwczovL2NlcnQuZ2Vla2JhbmcudG9w
-L0NSTC9DQS1TTTIuY2VyMCgGCWCGSAGG+EIBAgQbFhlodHRwczovL2NlcnQuZ2Vl
-a2JhbmcudG9wMDcGCWCGSAGG+EIBAwQqFihodHRwczovL2NlcnQuZ2Vla2Jhbmcu
-dG9wL0NSTC9DQS1TTTIuY2VyMDMGCWCGSAGG+EIBBwQmFiRodHRwczovL2NlcnQu
-Z2Vla2JhbmcudG9wL0NBLVNNMi5jZXIwKAYJYIZIAYb4QgEIBBsWGWh0dHBzOi8v
-Y2VydC5nZWVrYmFuZy50b3AwIAYJYIZIAYb4QgEMBBMWEWNlcnQuZ2Vla2Jhbmcu
-dG9wMIGyBgNVHSUBAf8EgacwgaQGCCsGAQUFBwMIBgRVHSUABggrBgEFBQcDAQYI
-KwYBBQUHAwIGCCsGAQUFBwMDBggrBgEFBQcDBAYIKwYBBQUHAwUGCCsGAQUFBwMG
-BggrBgEFBQcDBwYIKwYBBQUHAwgGCCsGAQUFBwMJBggrBgEFBQcDEQYKKwYBBAGC
-NwIBFQYKKwYBBAGCNwIBFgYKKwYBBAGCNwoDAQYKKwYBBAGCNwoDBDAKBggqhkjO
-PQQDAgNIADBFAiAicqQlPVUrZ7udrEJ1ukIL+fAiK+HRYF505uJKxQ2+MQIhAIjq
-ViMMMvOUSQNsCiocmgH44HGmDAwNqGgbvkFVrn5K
+QmFuZyBSb290IENBIFNNMjBaMBQGCCqBHM9VAYItBggqgRzPVQGCLQNCAAS8OlXj
+9R+XiC3U5Ej5NrDRSYrO1k+2IIChP52pGHNGpwRKgcNLxEgiol2DtayFC+8ULBLS
+WGz7tZfmiXPjVQ17o4IFUTCCBU0wge4GA1UdEQSB5jCB44ILZ2Vla2JhbmcuY2aC
+DGdlZWtiYW5nLnRvcIIKc2N1Z2Vlay5jboIKc2N1Z2Vlay5jZoINKi5nZWVrYmFu
+Zy5jZoIOKi5nZWVrYmFuZy50b3CCDCouc2N1Z2Vlay5jboIMKi5zY3VnZWVrLmNm
+ghXlm5vlt53lpKflrabmnoHlrqLpgqaCDFNDVSBHZWVrQmFuZ4IcR2Vla0Jhbmcs
+IFNpY2h1YW4gVW5pdmVyc2l0eYIw5Zub5bed5aSn5a2m5pm66IO95oSf55+l5LiO
+5YWI6L+b5o6n5Yi25a6e6aqM5a6kMIHuBgNVHRIEgeYwgeOCC2dlZWtiYW5nLmNm
+ggxnZWVrYmFuZy50b3CCCnNjdWdlZWsuY26CCnNjdWdlZWsuY2aCDSouZ2Vla2Jh
+bmcuY2aCDiouZ2Vla2JhbmcudG9wggwqLnNjdWdlZWsuY26CDCouc2N1Z2Vlay5j
+ZoIV5Zub5bed5aSn5a2m5p6B5a6i6YKmggxTQ1UgR2Vla0JhbmeCHEdlZWtCYW5n
+LCBTaWNodWFuIFVuaXZlcnNpdHmCMOWbm+W3neWkp+WtpuaZuuiDveaEn+efpeS4
+juWFiOi/m+aOp+WItuWunumqjOWupDAdBgNVHQ4EFgQU8iSbQv4A4iwLXN25zIeD
+3Fu4lRwwHwYDVR0jBBgwFoAU8iSbQv4A4iwLXN25zIeD3Fu4lRwwDwYDVR0TAQH/
+BAUwAwEB/zAMBgNVHQ8EBQMDB/+AMCMGCWCGSAGG+EIBDQQWFhRHZWVrQmFuZyBS
+b290IENBIFNNMjARBglghkgBhvhCAQEEBAMCBPAwNwYJYIZIAYb4QgEEBCoWKGh0
+dHBzOi8vY2VydC5nZWVrYmFuZy50b3AvQ1JML0NBLVNNMi5jZXIwKAYJYIZIAYb4
+QgECBBsWGWh0dHBzOi8vY2VydC5nZWVrYmFuZy50b3AwNwYJYIZIAYb4QgEDBCoW
+KGh0dHBzOi8vY2VydC5nZWVrYmFuZy50b3AvQ1JML0NBLVNNMi5jZXIwMwYJYIZI
+AYb4QgEHBCYWJGh0dHBzOi8vY2VydC5nZWVrYmFuZy50b3AvQ0EtU00yLmNlcjAo
+BglghkgBhvhCAQgEGxYZaHR0cHM6Ly9jZXJ0LmdlZWtiYW5nLnRvcDAgBglghkgB
+hvhCAQwEExYRY2VydC5nZWVrYmFuZy50b3AwggGzBgNVHSUBAf8EggGnMIIBowYE
+VR0lAAYIKwYBBQUHAwEGCCsGAQUFBwMCBggrBgEFBQcDAwYIKwYBBQUHAwQGCCsG
+AQUFBwMFBggrBgEFBQcDBgYIKwYBBQUHAwcGCCsGAQUFBwMIBggrBgEFBQcDCQYI
+KwYBBQUHAxEGCCsGAQUFCAICBgorBgEEAYI3AgEVBgorBgEEAYI3AgEWBgorBgEE
+AYI3CgMBBgorBgEEAYI3CgMEBgsrBgEEAYI3CgMEAQYKKwYBBAGCNxQCAgYJYIZI
+AYb4QgQBBgorBgEEAYI3CgMKBgorBgEEAYI3CgMLBgorBgEEAYI3CgYCBgorBgEE
+AYI3CgMNBgorBgEEAYI3CgMCBgorBgEEAYI3CgMJBgorBgEEAYI3CgUBBgorBgEE
+AYI3CgYBBgorBgEEAYI3CgMMBgorBgEEAYI3FAIBBgkrBgEEAYI3FQUGCisGAQQB
+gjcKAwUGCSsGAQQBgjcVBgYKKwYBBAGCNwoDBwYJKwYBBAGCNxUTBgorBgEEAYI3
+CgMIBgorBgEEAYI3CgMGBgRVHSAABgorBgEEAYI3CgMDMAoGCCqBHM9VAYN1A0kA
+MEYCIQDe79SERw4kHvnqHmWo5d8/GMIRP9iCasvEyV1pjo+ydgIhALtY5Jxoj2x1
+qirCsB6SFP35i8gmu7m7zpoTc1Bopt8R
 -----END CERTIFICATE-----
