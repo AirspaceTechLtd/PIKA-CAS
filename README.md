@@ -9,17 +9,9 @@
     >
     >   - Description = Pikachu Digital Certificate System Root CA
     >
-    >   - CN = Pikachu Root CA
+    >   - CN = Pikachu Root CA, OU = Certificate Management
     >
-    >   - OU = Certificate Management
-    >
-    >   - O = Pikachu Group
-    >
-    >   - L = Yongchuan
-    >
-    >   - S = Chongqing
-    >
-    >   - C = CN
+    >   - O = Pikachu Group, L = Yongchuan, S = Chongqing, C = CN
     >
     > - **[吊销列表](PikaRoot/CRL/CA.crl)**
 
@@ -41,17 +33,9 @@
     >
     >   - Description = GeekBang of Sichuan University
     >
-    >   - CN = SCU GeekBang Root CA
+    >   - CN = SCU GeekBang Root CA, OU = Certificate Management
     >
-    >   - OU = Certificate Management
-    >
-    >   - O = SCU GeekBang
-    >
-    >   - L = Chengdu
-    >
-    >   - S = Sichuan
-    >
-    >   - C = CN
+    >   - O = SCU GeekBang, L = Chengdu, S = Sichuan, C = CN
     >
     > - **[吊销列表](GeekBang/CRL/CA.crl)**
 
@@ -63,17 +47,9 @@
     >
     >   - Description = 极客邦网络隧道根证书
     >
-    >   - CN = SCU GeekBang Tunnel Sub CA
+    >   - CN = SCU GeekBang Tunnel Sub CA, OU = Network Management
     >
-    >   - OU = Network Management
-    >
-    >   - O = SCU GeekBang
-    >
-    >   - L = Chengdu
-    >
-    >   - S = Sichuan
-    >
-    >   - C = CN
+    >   - O = SCU GeekBang, L = Chengdu, S = Sichuan, C = CN
     >
     > - **[吊销列表](GeekBang/CRL/TSC.crl)**
 
@@ -83,15 +59,9 @@
       >
       >   - CN = SCU GeekBang MainRouter VPN Server
       >
-      >   - OU = Network Management
+      >   - OU = Network Management, O = SCU GeekBang
       >
-      >   - O = SCU GeekBang
-      >
-      >   - L = Chengdu
-      >
-      >   - S = Sichuan
-      >
-      >   - C = CN
+      >   - L = Chengdu, S = Sichuan, C = CN
       >
       > - **[吊销列表](GeekBang/CRL/MR-VPNS.crl)**
 
