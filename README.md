@@ -16,7 +16,7 @@
 
     - #### 
 
-  - ### [根证书 - SM2-E256-SM3](GeekBang/CA.cer)
+  - ### [根证书 - SM2-E256-SM3](PikaRoot/CA-SM2.cer)
 
 - ## 极客邦数字证书系统
 
@@ -63,4 +63,4 @@
 
   - 
 
-- ### [根证书 - SM2-E256-SM3](GeekBang/CA.cer)
+- ### [根证书 - SM2-E256-SM3](GeekBang/CA-SM2.cer)
