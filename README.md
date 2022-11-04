@@ -15,7 +15,7 @@
     >
     > - **[吊销列表](PikaRoot/CRL/CA.crl)**
 
-    - #### 
+    - 
 
   - ### [根证书 - SM2-E256-SM3](PikaRoot/CA-SM2.cer)
 
@@ -67,6 +67,4 @@
 
     - 
 
-  - 
-
-- ### [根证书 - SM2-E256-SM3](GeekBang/CA-SM2.cer)
+  - ### [根证书 - SM2-E256-SM3](GeekBang/CA-SM2.cer)
