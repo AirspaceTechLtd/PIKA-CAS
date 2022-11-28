@@ -5,9 +5,9 @@
 
     > - **证书信息**
     >- CN = **Pikachu Root CA RSA**
-    >   - Description = 皮卡丘数字证书系统根证书RSA
+    > - Description = 皮卡丘数字证书系统根证书RSA
     >- OU = Certificate Management & Signing
-    >   - O =  Pikachu Digital Certificate System
+    > - O =  Pikachu Digital Certificate System
     >-  L = Yongchuan, S = Chongqing, C = CN
     > - **[吊销列表 2030-01-01](CA.crl)**
     
