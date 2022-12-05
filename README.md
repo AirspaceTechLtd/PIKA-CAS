@@ -1,9 +1,10 @@
 # 数字证书验证点
 - ## 皮卡丘数字证书系统
 
-  - ### [根证书 - RSA-4096-SHA](PikaRoot/CA.cer)
+  - ### [根证书 - RSA-4096-SHA](CA.cer)
 
     > - **证书信息**
+<<<<<<< HEAD
     >
     >   - Description = 皮卡丘数字证书系统根证书
     >
@@ -22,49 +23,27 @@
 - ## 极客邦数字证书系统
 
   - ### [根证书 - RSA-4096-SHA](GeekBang/CA.cer)
+=======
+    >- CN = **Pikachu Root CA RSA**
+    > - Description = 皮卡丘数字证书系统根证书RSA
+    >- OU = Certificate Management & Signing
+    > - O =  Pikachu Digital Certificate System
+    >-  L = Yongchuan, S = Chongqing, C = CN
+    > - **[吊销列表 2030-01-01](CA.crl)**
+    
+    - 
+    
+  - ### [根证书 - SM2-E256-SM3](CA-SM2.cer)
+>>>>>>> 18191b9b42848c8ec9a8afa79d14faa96ba2c082
 
     > - **证书信息**
-    >
-    >   - Description = 四川大学智能感知与先进控制实验室
-    >
-    >   - Description = Intelligent Perception and Advanced Control Lab., SCU
-    >
-    >   - Description = 四川大学极客邦
-    >
-    >   - Description = GeekBang of Sichuan University
-    >
-    >   - CN = SCU GeekBang Root CA, OU = Certificate Management
-    >
-    >   - O = SCU GeekBang, L = Chengdu, S = Sichuan, C = CN
-    >
-    > - **[吊销列表](GeekBang/CRL/CA.crl)**
-
-  - #### [中间证书 - SCU GeekBang Tunnel Sub CA](GeekBang/TSC.cer)
-
-    > - **证书信息**
-    >
-    >   - Description = GeekBang Network Tunnel Root Certificate
-    >
-    >   - Description = 极客邦网络隧道根证书
-    >
-    >   - CN = SCU GeekBang Tunnel Sub CA, OU = Network Management
-    >
-    >   - O = SCU GeekBang, L = Chengdu, S = Sichuan, C = CN
-    >
-    > - **[吊销列表](GeekBang/CRL/TSC.crl)**
-
-    - ##### [服务证书 - SCU GeekBang MainRouter VPN Server](GeekBang/MR-VPNS.cer)
-
-      > - **证书信息**
-      >
-      >   - CN = SCU GeekBang MainRouter VPN Server
-      >
-      >   - OU = Network Management, O = SCU GeekBang
-      >
-      >   - L = Chengdu, S = Sichuan, C = CN
-      >
-      > - **[吊销列表](GeekBang/CRL/MR-VPNS.crl)**
+    >   - CN =**Pikachu Root CA SM2**
+    >   - O =  Pikachu Group
+    >   - S = Sichuan, C = CN
 
     - 
+<<<<<<< HEAD
 
   - ### [根证书 - SM2-E256-SM3](GeekBang/CA-SM2.cer)
+=======
+>>>>>>> 18191b9b42848c8ec9a8afa79d14faa96ba2c082
