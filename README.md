@@ -3,9 +3,9 @@
 
 > **证书信息**
 >
-> - Description = 皮卡丘数字证书信任系统根证书
-> - name = Pikachu Root CA RSA, 皮卡丘CA系统证书RSA
 > - CN = Pikachu Root CA RSA, O = Pikachu Trust Network CA
+> - name = Pikachu Root CA RSA, 皮卡丘CA系统证书RSA
+> - Description = 皮卡丘数字证书信任系统根证书
 > - OU = Pikachu Certification Authority, C = CN
 
 - ### [根证书 - RSA-4096-SHA](CA-RSA.cer)
