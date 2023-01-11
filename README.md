@@ -1,3 +1,4 @@
+<title>皮卡丘数字证书颁发机构CA验证点</title>
 # 皮卡丘数字证书颁发机构CA验证点
 ## Pikachu Certification Authority Online Service
 
@@ -10,7 +11,7 @@
 
 ## 自动安装证书 / Auto Import CA Certificates
 
-> ### Windows - [点击下载 / Download](AutoCA.exe)
+> ### Windows - [点击下载 / Download](AUTO/ImportCA-Windows.zip)
 >
 > ### Linux - `curl xxxxxxxxxxxxxxxx`
 >
