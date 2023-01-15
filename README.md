@@ -1,6 +1,5 @@
-<title>皮卡丘数字证书颁发机构CA验证点</title>
 # 皮卡丘数字证书颁发机构CA验证点
-## Pikachu Certification Authority Online Service
+# Pikachu Certification Authority Online Service
 
 ## CA证书信息 / CA Certificates Identifiers
 
@@ -9,23 +8,36 @@
 > - **Description = 皮卡丘数字证书信任系统根证书**
 > - **OU = Pikachu Certification Authority, C = CN**
 
-## 自动安装证书 / Auto Import CA Certificates
+## 安装CA证书 / Import CA Certificates
 
 > ### Windows - [点击下载 / Download](AUTO/ImportCA-Windows.zip)
 >
-> ### Linux - `curl xxxxxxxxxxxxxxxx`
+> ### Linux - 导入方法 / Import Tutorial
 >
-> ### MacOS - `curl xxxxxxxxxxxxxxxx`
+> ```
+> wget https://github.com/PIKACHUIM/CA/raw/main/CA.zip
+> unzip CA.zip
+> sudo cp *.cer /usr/local/share/ca-certificates
+> sudo update-ca-certificates
+> ```
+>
+> ### MacOS  - 导入方法 / Import Tutorial
+>
+> ```
+> wget https://github.com/PIKACHUIM/CA/raw/main/CA.zip
+> unzip CA.zip
+> keytool -import -keystore "cacerts" -file "CA/*.cer" -alias a-dev -storepass changeit
+> ```
 
-## [根证书 / Root CA - RSA-4096-SHA](CA-RSA.cer)
+## [根证书 / Root CA - RSA-4096-SHA - 点击下载 / Download](CA-RSA.cer)
 
 > - **证书信息 / Certificate Detail**
->   - 公钥算法(Public Key Algorithm)：**RSA(05 00)**
+>   - 公钥算法(Public Key Algorithm)：**RSA4096(05 00)**
 >   - 签名算法(Sign Algorithm)：**sha512RSA**
 >   - 证书指纹(Cert SHA1)：**`a9a7334f32f10035a6bf2a9ae62671d29d2ddc3f`**
 > - **[吊销列表 / Revocation List](CA-RSA.crl)**
 
-## [根证书 / Root CA - ECC-E512-SHA](CA-ECC.cer)
+## [根证书 / Root CA - ECC-E512-SHA - 点击下载 / Download](CA-ECC.cer)
 
 > - **证书信息 / Certificate Detail**
 >   - 公钥算法(Public Key Algorithm)：**brainpoolP512t1**
@@ -33,7 +45,7 @@
 >   - 证书指纹(Cert SHA1)：**`79b513c611670d9e5120325be6800fb1fde03bd9`**
 > - **[吊销列表 / Revocation List](CA-ECC.crl)**
 
-## [根证书 / Root CA - SM2-E256-SM3](CA-SM2.cer)
+## [根证书 / Root CA - SM2-E256-SM3 - 点击下载 / Download](CA-SM2.cer)
 
 > - **证书信息 / Certificate Detail**
 >   - 公钥算法(Public Key Algorithm)：**SM2(1.2.156.10197.1.301)**
