@@ -10,15 +10,16 @@
 
 ## 安装CA证书 / Import CA Certificates
 
-> ### Windows - [点击下载 / Download](AUTO/ImportCA-Windows.zip)
+> ### Windows - [点击下载 / Download](https://github.com/PIKACHUIM/CA/raw/main/AUTO/ImportCA-Windows.zip)
 >
 > ### Linux - 导入方法 / Import Tutorial
 >
 > ```
 > wget https://github.com/PIKACHUIM/CA/raw/main/CA.zip
 > unzip CA.zip
-> sudo cp CA/*.cer /usr/local/share/ca-certificates
-> sudo cp CA/*.cer /etc/pki/
+> sudo cp -r CA/*.crt /usr/local/share/ca-certificates
+> sudo update-ca-certificates
+> sudo cp -r CA/*/*.crt /usr/local/share/ca-certificates
 > sudo update-ca-certificates
 > ```
 >
@@ -28,6 +29,7 @@
 > wget https://github.com/PIKACHUIM/CA/raw/main/CA.zip
 > unzip CA.zip
 > keytool -import -keystore "cacerts" -file "CA/*.cer" -alias a-dev -storepass changeit
+> keytool -import -keystore "cacerts" -file "CA/*/*.cer" -alias a-dev -storepass changeit
 > ```
 
 ## [根证书 / Root CA - RSA-4096-SHA - 点击下载 / Download](CA-RSA.cer)
