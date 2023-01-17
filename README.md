@@ -26,10 +26,14 @@
 > ### MacOS  - 导入方法 / Import Tutorial
 >
 > ```
-> wget https://github.com/PIKACHUIM/CA/raw/main/CA.zip
+> curl -L -o CA.zip -k "https://github.com/PIKACHUIM/CA/raw/main/CA.zip"
 > unzip CA.zip
-> keytool -import -keystore "cacerts" -file "CA/*.cer" -alias a-dev -storepass changeit
-> keytool -import -keystore "cacerts" -file "CA/*/*.cer" -alias a-dev -storepass changeit
+> for i in CA/*.cer; do
+> echo "$i" && sudo security add-trusted-cert -d -r trustRoot "$i";
+> done
+> for i in CA/*/*.cer; do
+> echo "$i" && sudo security add-trusted-cert -d -r trustRoot "$i";
+> done
 > ```
 
 ## [根证书 / Root CA - RSA-4096-SHA - 点击下载 / Download](CA-RSA.cer)
