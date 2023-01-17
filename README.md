@@ -17,7 +17,8 @@
 > ```
 > wget https://github.com/PIKACHUIM/CA/raw/main/CA.zip
 > unzip CA.zip
-> sudo cp *.cer /usr/local/share/ca-certificates
+> sudo cp CA/*.cer /usr/local/share/ca-certificates
+> sudo cp CA/*.cer /etc/pki/
 > sudo update-ca-certificates
 > ```
 >
