@@ -4,8 +4,8 @@
 
 ## CA证书信息 / CA Certificates Identifiers
 
-> - **CN = Pikachu Root CA RSA, O = Pikachu Trust Network CA**
->- **name = Pikachu Root CA RSA, 皮卡丘CA系统证书RSA**
+> - **CN = Pikachu Root CA XXX, O = Pikachu Trust Network CA**
+>- **name = Pikachu Root CA XXX, 皮卡丘CA系统证书XXX**
 > - **Description = 皮卡丘数字证书信任系统根证书**
 > - **OU = Pikachu Certification Authority, C = CN**
 
@@ -45,13 +45,13 @@
 >   - 证书指纹(Cert SHA1)：**`a9a7334f32f10035a6bf2a9ae62671d29d2ddc3f`**
 > - **[吊销列表 / Revocation List](CA-RSA.crl)**
 
-## [根证书 / Root CA - ECC-E512-SHA - 点击下载 / Download](CA-ECC.cer)
+## [根证书 / Root CA - ECC-P521-SHA - 点击下载 / Download](CA-ECCP521.cer)
 
 > - **证书信息 / Certificate Detail**
->   - 公钥算法(Public Key Algorithm)：**brainpoolP512t1**
+>   - 公钥算法(Public Key Algorithm)：**ECDSA_P521**
 >   - 签名算法(Sign Algorithm)：**sha512ECDSA**
->   - 证书指纹(Cert SHA1)：**`79b513c611670d9e5120325be6800fb1fde03bd9`**
-> - **[吊销列表 / Revocation List](CA-ECC.crl)**
+>   - 证书指纹(Cert SHA1)：**`aafd6ef953a33e42aa7388e1a4cbc1174ecfb67c`**
+> - **[吊销列表 / Revocation List](CA-ECCP521.crl)**
 
 ## [根证书 / Root CA - SM2-E256-SM3 - 点击下载 / Download](CA-SM2.cer)
 
