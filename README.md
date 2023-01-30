@@ -45,13 +45,13 @@
 >   - 证书指纹(Cert SHA1)：**`a9a7334f32f10035a6bf2a9ae62671d29d2ddc3f`**
 > - **[吊销列表 / Revocation List](CA-RSA.crl)**
 
-## [根证书 / Root CA - ECC-P521-SHA - 点击下载 / Download](CA-ECCP521.cer)
+## [根证书 / Root CA - ECC-P521-SHA - 点击下载 / Download](CA-ECC.cer)
 
 > - **证书信息 / Certificate Detail**
 >   - 公钥算法(Public Key Algorithm)：**ECDSA_P521**
 >   - 签名算法(Sign Algorithm)：**sha512ECDSA**
->   - 证书指纹(Cert SHA1)：**`aafd6ef953a33e42aa7388e1a4cbc1174ecfb67c`**
-> - **[吊销列表 / Revocation List](CA-ECCP521.crl)**
+>   - 证书指纹(Cert SHA1)：**`57b246cd017f744fe1a12868f54395e7f8d71ab2`**
+> - **[吊销列表 / Revocation List](CA-ECC.crl)**
 
 ## [根证书 / Root CA - SM2-E256-SM3 - 点击下载 / Download](CA-SM2.cer)
 
