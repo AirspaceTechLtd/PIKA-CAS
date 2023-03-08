@@ -2,12 +2,12 @@
 
 # Pikachu Certification Authority Online Service
 
-## CA证书信息 / CA Certificates Identifiers
+## CA证书信息 / CA Certificates Details
 
-> - **CN = Pikachu Root CA XXX, O = Pikachu Trust Network CA**
->- **name = Pikachu Root CA XXX, 皮卡丘CA系统证书XXX**
+> - **CN = Pikachu Root CA**
+> - **O = Pikachu Trust Network CA**
+> - **OU = Pikachu Certification Authority,  C  =  CN**
 > - **Description = 皮卡丘数字证书信任系统根证书**
-> - **OU = Pikachu Certification Authority, C = CN**
 
 ## 安装CA证书 / Import CA Certificates
 
