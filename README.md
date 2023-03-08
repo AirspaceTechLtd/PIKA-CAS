@@ -11,7 +11,7 @@
 
 ## 安装CA证书 / Import CA Certificates
 
-> ### Win32 - [点击下载 / Download File](https://github.com/PIKACHUIM/CA/raw/main/Import.zip)
+> ### Win32 - [点击下载 / Download File](https://cert.pika.net.cn/Import.zip)
 >
 > ```
 > certutil.exe -urlcache -split -f "https://gitee.com/pikachuim/CA/raw/main/CA.zip" CA.zip
