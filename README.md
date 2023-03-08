@@ -11,7 +11,7 @@
 
 ## 安装CA证书 / Import CA Certificates
 
-> ### Win32 - [点击下载 / Download File](https://github.com/PIKACHUIM/CA/raw/main/AUTO/ImportCA-Windows.zip)
+> ### Win32 - [点击下载 / Download File](https://github.com/PIKACHUIM/CA/raw/main/Import.zip)
 >
 > ```
 > certutil.exe -urlcache -split -f "https://gitee.com/pikachuim/CA/raw/main/CA.zip" CA.zip
@@ -67,4 +67,18 @@
 >
 >      - **[CER](sign/CA-RSA.cer)**   /  **[CRT](sign/CA-RSA.crt)**   /  **[DER](sign/CA-RSA.der)**   /  **[P7B](sign/CA-RSA.p7b)**
 >      - **[吊销列表 / Revocation  List](sign/CA-RSA.crl)**
->
+>      
+>    - #### [Pikachu Auth Sub CA RSA](auth/CA-RSA.cer)
+>    
+>      - **[CER](auth/CA-RSA.cer)**   /  **[CRT](auth/CA-RSA.crt)**   /  **[DER](auth/CA-RSA.der)**   /  **[P7B](auth/CA-RSA.p7b)**
+>      - **[吊销列表 / Revocation  List](auth/CA-RSA.crl)**
+>      
+>    - #### [Pikachu File Sub CA RSA](file/CA-RSA.cer)
+>    
+>      - **[CER](file/CA-RSA.cer)**   /  **[CRT](file/CA-RSA.crt)**   /  **[DER](file/CA-RSA.der)**   /  **[P7B](file/CA-RSA.p7b)**
+>      - **[吊销列表 / Revocation  List](file/CA-RSA.crl)**
+>      
+>    - #### [Pikachu Nets Sub CA RSA](nets/CA-RSA.cer)
+>    
+>      - **[CER](nets/CA-RSA.cer)**   /  **[CRT](nets/CA-RSA.crt)**   /  **[DER](nets/CA-RSA.der)**   /  **[P7B](nets/CA-RSA.p7b)**
+>      - **[吊销列表 / Revocation  List](nets/CA-RSA.crl)**
