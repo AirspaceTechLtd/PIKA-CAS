@@ -1,17 +1,26 @@
-# 皮卡丘数字证书颁发机构CA验证点
+# 皮卡丘数字证书颁发机构在线验证服务点
 
 # Pikachu Certification Authority Online Service
 
-## CA证书信息 / CA Certificates Identifiers
+## CA证书信息 / CA Certificates Details
 
-> - **CN = Pikachu Root CA RSA, O = Pikachu Trust Network CA**
->- **name = Pikachu Root CA RSA, 皮卡丘CA系统证书RSA**
+> - **CN = Pikachu Root CA**
+> - **O = Pikachu Trust Network CA**
+> - **OU = Pikachu Certification Authority,  C  =  CN**
 > - **Description = 皮卡丘数字证书信任系统根证书**
-> - **OU = Pikachu Certification Authority, C = CN**
 
 ## 安装CA证书 / Import CA Certificates
 
-> ### Windows - [点击下载 / Download](https://github.com/PIKACHUIM/CA/raw/main/AUTO/ImportCA-Windows.zip)
+> ### Win32 - [点击下载 / Download File](https://gitee.com/pikachuim/CA/raw/main/Import.zip)
+>
+> [Github海外](https://github.com/PIKACHUIM/CA/blob/main/Import.zip?raw=true)  [Gitee国内](https://gitee.com/pikachuim/CA/raw/main/Import.zip)  [CDN服务器](https://cdn-tx1.pika.net.cn/Cert/Import.zip)  [直链服务](https://cert.pika.net.cn/Import.zip)
+>
+> ```
+> certutil.exe -urlcache -split -f "https://gitee.com/pikachuim/CA/raw/main/CA.zip" CA.zip
+> 7z x -tzip -y CA.zip
+> forfiles /p .\CA\ /s /c "cmd /c ..\certmgr.exe -add /all @path -s -r localMachine AuthRoot"
+> forfiles /p .\CA\ /s /c "cmd /c echo @path"
+> ```
 >
 > ### Linux - 导入方法 / Import Tutorial
 >
@@ -37,28 +46,41 @@
 > done
 > ```
 
-## [根证书 / Root CA - RSA-4096-SHA - 点击下载 / Download](CA-RSA.cer)
+## CA根证书 / Root CA - RSA-4096-SHA
 
-> - **证书信息 / Certificate Detail**
->   - 公钥算法(Public Key Algorithm)：**RSA4096(05 00)**
->   - 签名算法(Sign Algorithm)：**sha512RSA**
->   - 证书指纹(Cert SHA1)：**`a9a7334f32f10035a6bf2a9ae62671d29d2ddc3f`**
-> - **[吊销列表 / Revocation List](CA-RSA.crl)**
-
-## [根证书 / Root CA - ECC-E512-SHA - 点击下载 / Download](CA-ECC.cer)
-
-> - **证书信息 / Certificate Detail**
->   - 公钥算法(Public Key Algorithm)：**brainpoolP512t1**
->   - 签名算法(Sign Algorithm)：**sha512ECDSA**
->   - 证书指纹(Cert SHA1)：**`79b513c611670d9e5120325be6800fb1fde03bd9`**
-> - **[吊销列表 / Revocation List](CA-ECC.crl)**
-
-## [根证书 / Root CA - SM2-E256-SM3 - 点击下载 / Download](CA-SM2.cer)
-
-> - **证书信息 / Certificate Detail**
->   - 公钥算法(Public Key Algorithm)：**SM2(1.2.156.10197.1.301)**
->   - 公钥参数(Public Key Parameters)：**06 08 2a 81 1c cf 55 01 82 2d**
->   - 签名算法(Sign Algorithm)：**SM3(1.2.156.10197.1.501)**
->   - 证书指纹(Cert SHA1)：**`ba8a72e9ddea14cd03d0bfc17c799ec7b2570661`**
-> - **[吊销列表 / Revocation List](CA-SM2.crl)**
-
+> - ### **[证书信息 / Certificate Info]()**
+>
+>   - **证书算法(Signer Algorithm)：**`RSA4096(05 00) sha512RSA`
+>
+>   - **CA序列号(Certificate  SerN.)：**`36e20834e0395ccd71736a52`
+>
+>   - **证书指纹(Certificate  SHA1)：**`a4a873643324594b384639a35597b8b6c27bba32`
+> - ### [下载证书 / Download Cert]((CA-RSA.cer))
+>
+>   - **[CER](CA-RSA.cer)**   /  **[CRT](CA-RSA.crt)**   /  **[DER](CA-RSA.der)**   /  **[P7B](CA-RSA.p7b)**
+>
+> - ### **[吊销列表 / Revocation List](CA-RSA.crl)**
+>
+>   - [2020/01/01 - 2030/01/01](CA-RSA.crl)
+>
+>  - ### [中间证书 / Middle | Sub CA]()
+>
+>    - #### [Pikachu Sign Sub CA RSA](sign/CA-RSA.cer)
+>
+>      - **[CER](sign/CA-RSA.cer)**   /  **[CRT](sign/CA-RSA.crt)**   /  **[DER](sign/CA-RSA.der)**   /  **[P7B](sign/CA-RSA.p7b)**
+>      - **[吊销列表 / Revocation  List](sign/CA-RSA.crl)**
+>      
+>    - #### [Pikachu Auth Sub CA RSA](auth/CA-RSA.cer)
+>    
+>      - **[CER](auth/CA-RSA.cer)**   /  **[CRT](auth/CA-RSA.crt)**   /  **[DER](auth/CA-RSA.der)**   /  **[P7B](auth/CA-RSA.p7b)**
+>      - **[吊销列表 / Revocation  List](auth/CA-RSA.crl)**
+>      
+>    - #### [Pikachu File Sub CA RSA](file/CA-RSA.cer)
+>    
+>      - **[CER](file/CA-RSA.cer)**   /  **[CRT](file/CA-RSA.crt)**   /  **[DER](file/CA-RSA.der)**   /  **[P7B](file/CA-RSA.p7b)**
+>      - **[吊销列表 / Revocation  List](file/CA-RSA.crl)**
+>      
+>    - #### [Pikachu Nets Sub CA RSA](nets/CA-RSA.cer)
+>    
+>      - **[CER](nets/CA-RSA.cer)**   /  **[CRT](nets/CA-RSA.crt)**   /  **[DER](nets/CA-RSA.der)**   /  **[P7B](nets/CA-RSA.p7b)**
+>      - **[吊销列表 / Revocation  List](nets/CA-RSA.crl)**
