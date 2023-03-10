@@ -52,9 +52,9 @@
 >
 >   - **证书算法(Signer Algorithm)：**`RSA4096(05 00) sha512RSA`
 >
->   - **CA序列号(Certificate  SerN.)：**`36e20834e0395ccd71736a52`
+>   - **CA序列号(Certificate  SerN.)：**`4146d5c10b1a5e0ab0fc9432`
 >
->   - **证书指纹(Certificate  SHA1)：**`a4a873643324594b384639a35597b8b6c27bba32`
+>   - **证书指纹(Certificate  SHA1)：**`31760fc0d2e3811fe217b4e499f51db02bf3a244`
 > - ### [下载证书 / Download Cert]((CA-RSA.cer))
 >
 >   - **[CER](CA-RSA.cer)**   /  **[CRT](CA-RSA.crt)**   /  **[DER](CA-RSA.der)**   /  **[P7B](CA-RSA.p7b)**
